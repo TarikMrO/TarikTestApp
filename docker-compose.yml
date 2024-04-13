@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  tariktestapp:
+    image: tarik01011-tariktestapp
+    build:
+      context: .
+      dockerfile: TarikTestApp/Dockerfile
